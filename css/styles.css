@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--ftpop);
+}
+:root{
+    --ftmon:'Montserrat', sans-serif;
+    --ftpop:'Poppins', sans-serif;
+    /* color */
+    --clr1green:rgb(235,250,244);
+    --clr1lighterbkue:rgb(242,245,252);
+    --clr5green:rgb(111, 247, 197);
+    --clr0light:rgb(252,252,252);
+    --clr10green:rgb(64, 235, 172);
+    --clr10blue:rgb(32,43,73);
+    --clrorange:rgb(255,145,0);
+    --clrblack:rgb(0,0,0);
+    --clrdarkr:rgb(167,167,167);
+    --clrlogo:rgb(20,93,52);
+    --clrh1:rgb(0,13,47);
+    --clrheaderP:rgb(207,207,207);
+
+
+    /* font */
+    --ftlogo:24px;
+    --ftnav:14px;
+    --ftfooter:13px;
+    --fth1:40px;
+    --ftpheader:14px;
+    --ftp:18px;
+    --fth4:18px;
+    /* border bob */
+    --bob:50px 0 50px 50px;
+}
+
+.porfolio{
+background: url(../img/Group\ 8944.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+width: 100%;
+
+}
+header{
+    overflow: hidden;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--clrblack);
+}
+.nav{
+    width: 100%;
+    background-color: var(--clrblack);
+    color: var(--clr0light);
+    padding: 15px 0;
+}
+.ortfolio-ul{
+    display: flex;
+}
+.ortfolio-ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--clr0light);
+}
+.ortfolio-ul a{
+
+    margin-left: 20px;
+    font-size: var(--ftnav);
+    font-weight: bold;
+}
+.porfolio-logo{
+    color: var(--clr10green);
+}
+.container-port-hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-hero{
+    display: flex;
+    height: 100%;
+    width: 83%;
+    align-items: center;
+    position: relative;
+    left: 70px;
+    bottom: 40px;
+}
+.port-hero-img{
+    margin-right: 20px;
+}
+.port-hero-h2{
+    width: 700px;
+    font-size: 32px;
+    font-weight: 500;
+}
+.port-hero-p{
+    position: relative;
+    left: 80px;
+    font-weight: 500;
+}
+.port-hero-p::before{
+    content: '';
+    position: absolute;
+    display: inline;
+    width: 50px;
+    height: 3px;
+    background-color: var(--clr10green);
+    left: -78px;
+    top: 11.5px;
+}
+.port-hero-text{
+    position: relative;
+    bottom: 156px;
+}
+/* section one */
+.portfolio-one{
+    background-color: var(--clrblack);
+    width: 100%;
+    overflow: hidden;
+}
+.port-mobile{
+    position: relative;
+    width: 90%;
+    margin: 0 auto 50px auto;
+    margin-top: 50px;
+}
+.icon-message{
+    position: relative;
+    padding: 30px;
+    background-color: var(--clr10green);
+    border-radius: var(--bob);
+    color: var(--clr0light);
+    width: 8%;
+}
+.mobile-text{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.mobiledev{
+    color: var(--clr0light);
+    width: 980px;
+}
+.mobile-h2{
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.mobile-p{
+    font-size: 15px;
+    font-weight: 400;
+}
+.mobile-img{
+    width: 100%;
+    margin: 0 auto;
+    
+}
+.mobie-insite{
+    width: 97%;
+    margin-bottom: 20px;
+}
+.mobie-insite:nth-child(6){
+    margin-bottom: 0;
+}
+/* section two */
+.portfolio-two{
+    padding: 70px 80px 70px 80px;
+}
+.creating{
+    display: flex;
+    width: 85%;
+}
+.creating-h1{
+    font-size: 2.4rem;
+    width: 500px;
+    font-weight: 600;
+}
+.creating-p{
+    width: 550px;
+}
+.creating-card{
+    display: flex;
+}
+.creating-crd{
+    padding: 70px;
+    background-color: var(--clr5green);
+    color: rgba(20,93,52,.8);
+    height: 120px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    border-radius: 7px;
+    position: relative;
+    top: 20px;
+}
+.crd-h5{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.crd-p{
+    font-size: 15px;
+    color: var(--clrblack);
+    font-weight: 600;
+}
+.creating-text{
+    margin-right: 10px;
+}
+/* section six */
+.six{
+    display: flex;
+    justify-content: center;
+    background-color: var(--clr1green);
+}
+.next-level{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin:100px 0;
+}
+.level-h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.level-p{
+    font-size: 14px;
+    color: rgba(173, 173, 173, 0.9);
+}
+.level-a{
+    height: 43px;
+    padding: 15px 30px;
+    background-color: var(--clr10green);
+    font-weight: 600;
+    color: var(--clr0light);
+    border-radius: 20px;
+    font-size: 12px;
+}
+/* footer */
+.footer-home{
+    background: url("../img/Group\ 8931.png");
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+.petrong{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.petrong-quick{
+    display: flex;
+}
+.petrong-quick ul:nth-child(2){
+    margin-left: 15px;
+}
+.petrong-quick li{
+    list-style: none;
+}
+.petrong-quick a{
+    color: var(--clrheaderP);
+    font-size: 14px;
+}
+.quick-links{
+    color: var(--clr0light);
+}
+.ig{
+    background-color: rgb(0,13,47);
+    padding: 10px;
+    border-radius: 50%;
+}
+.fb{
+    background-color: rgb(0,13,47);
+    padding: 10px 15px;
+    border-radius: 50%;
+    position: relative;
+}
+.spans{
+    padding: 8px 20px;
+    background-color: rgb(0,13,47);
+    border-radius: 50%;
+    position: relative;
+    top: -7px;
+    margin-left: 5px;
+}
+.petrong-logo{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+    left: 70px;
+}
+.petrong-logo::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: var(--clr10green);
+    left: -53px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 3px solid var(--clr0light);
+    overflow: hidden;
+}
+.petrong-logo::after{
+    content: '';
+    position: absolute;
+    width: 42px;
+    height: 17px;
+    background-color: transparent;
+    border-top: 2px solid var(--clr0light);
+    border-bottom: 2px solid var(--clr0light);
+    transform: rotate(-30deg);
+    left: -47px;
+    top: 16px;
+}
+.petrong-logo-h3{
+    font-size: 1.70rem;
+    color: var(--clr10green);
+}
+.petrong-logo-p{
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+    color: var(--clr10green);
+}
+.numb-email{
+    color: var(--clr10green);
+}
+.petrong-numb{
+    display: flex;
+}
+.message-icon{
+    margin-right: 10px;
+}
+.petrong li, .petrong li a{
+    list-style: none;
+    color: var(--clrheaderP);
+    font-size: 15px;
+}
+.contactf-h3, .our-tech-h3, .oursev-h3, .quick-links{
+    color: var(--clr0light);
+    margin-bottom: 10px;
+}
+.numb, .message-numb{
+    font-size: 14px;
+}
+.footer-pet{
+    color: var(--clrheaderP);
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    font-size: 15px;
+}
+.footer-up-span{
+    border: 2px solid var(--clrblack);
+    border-radius: 50%;
+    padding:0 5px;
+    color: var(--clrblack);
+}
+.footer-nav-up{
+    padding: 30px;
+    background-color: var(--clr0light);
+    border-radius: var(--bob);
+    position: relative;
+    bottom: 50px;
+}
+.span-footer-a{
+    color: var(--clrblack);
+}
+.petrong-numb{
+    color: var(--clrheaderP);
+}
+.footer-pet{
+    position: relative;
+    top: 20px;
+} 
