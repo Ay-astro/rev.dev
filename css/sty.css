@@ -640,8 +640,136 @@ input[type=button]{
     position: relative;
     top: 54rem;
 }
+/* about css section */
+.about-header{
+    height: 130vh;
+    overflow: hidden;
+    z-index: 1;
+}
+.about-hero{
+    display: flex;
+    position: relative;
+    top: 20%;
+    width: 80%;
+    margin: 0 auto;
+}
 
-
+.groupz{
+    z-index: -1;
+    position: relative;
+    top: 26.9%;
+}
+img[alt=png]{
+    position: relative;
+    bottom: 27.5%;
+    left: 8%;
+    z-index: 1;
+}
+.abt-hero-imgtext{
+    position: relative;
+    bottom: 42%;
+    left: 48%;
+    z-index: 2;
+    width: 90%;
+    padding: .9rem 2.5rem .7rem 2.5rem;
+    background-color: var(--clr0light);
+    border-radius: 15px;
+}
+.about-hero-imgtxt{
+    font-size: .85rem;
+    line-height: 1.7rem;
+}
+.about-hero-imgtxtp{
+    font-weight: 500;
+    margin-top: .5rem;
+}
+.about-hero-imgtxtpp{
+    font-size: .77rem;
+    margin-top: .5rem;
+}
+.about-hero-txt{
+    z-index: 2;
+    position: relative;
+    left: 10%;
+}
+.abt-hero-p{
+    position: relative;
+    left: 14%;
+}
+.abt-hero-p::before{
+    content: "";
+    position: absolute;
+    top: 48%;
+    left: -14%;
+    height: 12%;
+    width: 10%;
+    background-color: var(--clr10green);
+}
+.abt-hero-h1{
+    font-weight: 600;
+    margin-bottom: 5%;
+    width: 90%;
+}
+.abt-herp-pp{
+    width: 87%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: justify;
+    line-height: 2.39rem;
+}
+/* methodology */
+.about-meth-img{
+    position: relative;
+    left: 73%;
+    z-index: 2;
+    bottom: 6rem;
+    
+}
+.about-methodologies{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+    position: relative;
+    left:5%;
+    bottom: 4rem;
+}
+.about-methodologies-text{
+    position: relative;
+    width: 50%;
+    bottom: 3rem;
+}
+.abt-ic{
+    position: relative;
+    height: 5.3rem;
+    display: flex;
+    justify-content: center;
+}
+.methodologies-p{
+    position: relative;
+    font-weight: 500;
+    left: 9%;
+}
+.methodologies-p::before{
+    content: '';
+    position: absolute;
+    left: -9%;
+    top: 40%;
+    width: 7%;
+    height: 10%;
+    background-color: var(--clr10green);
+}
+.methodologies-h1{
+    font-weight: 500;
+}
+.methodologies-pp{
+    max-width: 85%;
+    line-height: 2rem;
+}
+.methodologies-subsection{
+    width:87%;
+    margin: 0 auto;
+}
 
 
 
